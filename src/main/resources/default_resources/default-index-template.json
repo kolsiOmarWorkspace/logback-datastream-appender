@@ -1,0 +1,15 @@
+{
+  "index_patterns": [
+    "${index_name}*"
+  ],
+  "data_stream": {},
+  "composed_of": [
+    "${index_name}-mapping-component-template",
+    "${index_name}-settings-component-template"
+  ],
+  "priority": 500,
+  "_meta": {
+    "description": "Template for my time series data",
+    "my-custom-meta-field": "More arbitrary metadata"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "template": {
+    "settings": {
+      "index.lifecycle.name": "${index_name}-policy"
+    }
+  },
+  "_meta": {
+    "description": "Settings for ILM",
+    "my-custom-meta-field": "More arbitrary metadata"
+  }
+}
